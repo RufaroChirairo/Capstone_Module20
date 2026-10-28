@@ -27,7 +27,7 @@ Samples are labeled as contaminated (`1`) when E. coli is ≥ 100 per 100 mL and
 1. Combine the five data files into one dataframe.
 2. Filter out rows with `Poor` or `Suspect` data quality ratings, and drop the 137 turbidity measurements reported in JCU rather than NTU (0.27% of turbidity rows).
 3. Reshape (pivot) so each row is one sampling event (station, date, time, depth) with one column per parameter. Repeat measurements within an event are averaged.
-4. Keep only events with an E. coli measurement**, then drop identifier columns (index, station number, date, time).
+4. Keep only events with an E. coli measurement, then drop identifier columns (index, station number, date, time).
 5. Explore: mean vs. median comparisons, histograms, the E. coli / fecal coliform relationship, and the largest E. coli values (kept, since extreme values are not necessarily errors).
 6. The model used a 75/25 train/test split. Preprocessing happens inside a Pipeline (median missing value imputation, then `RobustScaler`) so nothing from the test set leaks into training.
 
