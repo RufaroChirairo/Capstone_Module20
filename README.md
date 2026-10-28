@@ -1,9 +1,9 @@
 # Predicting E. coli Contamination in River Water
 
-Capstone project (Berkeley Extension) using water-quality monitoring data from the UN GEMStat database. The goal is to build a baseline classification model that predicts whether a river water sample is contaminated with *E. coli*.
+My capstone project is using water-quality monitoring data from the UN GEMStat database. The goal is to build a baseline classification model that predicts whether a river water sample is contaminated with E. coli.
 
-Author: Rufaro Chirairo
-Notebook: Capstone_Rough_1.ipynb
+* Author: Rufaro Chirairo
+* Notebook: https://github.com/RufaroChirairo/Capstone_Module20/blob/main/Capstone_Rough.ipynb
 
 ---
 
